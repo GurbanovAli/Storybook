@@ -1,5 +1,5 @@
 {
-   "name": "storybook",
+   "name": "Storybook-Culture-Portal",
    "version": "0.1.0",
    "private": true,
    "dependencies": {
@@ -14,7 +14,7 @@
    },
    "scripts": {
       "storybook": "start-storybook",
-	  "build-storybook": "build-storybook -c .storybook"
+	   "build-storybook": "build-storybook -c .storybook -o .out"
    },
    "eslintConfig": {
       "extends": "react-app"
